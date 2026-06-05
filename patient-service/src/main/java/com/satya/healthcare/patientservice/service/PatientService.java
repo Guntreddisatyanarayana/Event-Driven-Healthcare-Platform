@@ -1,9 +1,3 @@
-/*
--->take the entity data from controller --->to save the whole data in db using repositery-->
---->but returning the dtos to controller because privacy (hide some privite information ex:password aadhar )
- */
-
-
 
 package com.satya.healthcare.patientservice.service;
 

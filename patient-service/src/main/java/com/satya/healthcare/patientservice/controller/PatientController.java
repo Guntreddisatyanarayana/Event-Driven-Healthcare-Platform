@@ -16,6 +16,7 @@ public class PatientController {
     public  PatientController(PatientService patientService){
         this.patientService=patientService;
     }
+    /// get all lists of patients data;
     public ResponseEntity<List<PatientsResponseDto>> getPatients(){
         List<PatientsResponseDto> patients=patientService.getPatients();//call the service
         return ResponseEntity.ok().body(patients);
